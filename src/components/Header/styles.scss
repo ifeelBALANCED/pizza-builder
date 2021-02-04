@@ -1,0 +1,24 @@
+.header {
+  background: #0D0628;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-body {
+    display: flex;
+    align-items: center;
+
+    &__img {
+      height: 40px;
+    }
+
+    &__title {
+      margin-left: 20px;
+      font-size: 30px;
+      color: yellow;
+      font-family: "Alata", sans-serif;
+    }
+  }
+}
+

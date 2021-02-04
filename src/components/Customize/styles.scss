@@ -1,0 +1,19 @@
+.customize {
+  display: flex;
+
+  &__content {
+    flex: 1;
+    padding: 40px;
+
+    &-header {
+      max-height: 500px;
+      max-width: 500px;
+      position: relative;
+
+      .motion-img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
